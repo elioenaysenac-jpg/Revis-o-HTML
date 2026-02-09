@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitLife Academy - Sua Academia</title>
+</head>
+<body>
+
+<header>
+    <h1>FitLife Academy</h1>
+
+    <nav>
+        <ul>
+            <li><a href="#modalidades">Modalidades</a></li>
+            <li><a href="#horarios">Horários</a></li>
+            <li><a href="#matricula">Matrícula</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section id="modalidades">
+        <h2>Modalidades</h2>
+        <p>Conheça algumas das atividades que oferecemos na FitLife Academy.</p>
+
+        <ul>
+            <li>
+                <strong>Musculação</strong><br>
+                <em>Treinos completos para força e hipertrofia.</em><br>
+                <img src="1985390529-pessoa-se-exercitando-na-academia.webp" alt="pessoa treinando musculação" width="350" height="300">
+            </li>
+
+            <li>
+                <strong>CrossFit</strong><br>
+                <em>Treinos funcionais de alta intensidade.</em><br>
+                <img src="pessoa-fazendo-treinamento-crossfit_23-2149162342.avif" alt="pessoa fazendo crossfit" width="350" height="300">
+            </li>
+
+            <li>
+                <strong>Yoga</strong><br>
+                <em>Exercícios para equilíbrio e relaxamento.</em><br>
+                <img src="topo-como-fazer-yoga.jpg" alt="pessoa fazendo yoga" width="350" height="300">
+            </li>
+        </ul>
+    </section>
+
+    <section id="horarios">
+        <h2>Horários da Semana</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Horário</th>
+                    <th>Segunda</th>
+                    <th>Quarta</th>
+                    <th>Sexta</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>08:00</td>
+                    <td>Musculação</td>
+                    <td>Yoga</td>
+                    <td>CrossFit</td>
+                </tr>
+
+                <tr>
+                    <td>10:00</td>
+                    <td>CrossFit</td>
+                    <td>Musculação</td>
+                    <td>Yoga</td>
+                </tr>
+
+                <tr>
+                    <td>18:00</td>
+                    <td>Yoga</td>
+                    <td>CrossFit</td>
+                    <td>Musculação</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td colspan="4">*Sujeito a lotação máxima.</td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+
+    <section id="matricula">
+        <h2>Pré-Matrícula</h2>
+
+        <form action="#" method="POST">
+            
+        <label for="nome">Nome Completo:</label>
+        <input type="text" id="nome" name="nome" required>
+        <br><br>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email">
+        <br><br>
+
+        <label for="nascimento">Data de Nascimento:</label>
+        <input type="date" id="nascimento" name="nascimento">
+        <br><br>
+
+        <label for="plano">Plano de Interesse:</label>
+        <select name="plano" id="plano">
+            <option>Mensal</option>
+            <option>Trimestral</option>
+            <option>Anual</option>
+        </select>
+        <br><br>
+
+        <label for="objetivo">Objetivo:</label><br>
+        <textarea name="objetivo" id="objetivo"></textarea>
+        <br><br>
+
+        <input type="checkbox" id="termos" name="termos">
+        <label for="termos">Li e aceito as regras</label>
+        <br><br>
+
+        <button type="reset">Limpar</button>
+        <button type="submit">Enviar</button>
+
+        </form>
+    </section>
+</main>
+
+<footer id="contato">
+    <p>© 2026 FitLife Academy</p>
+
+    <ul>
+        <li> <a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+        <li> <a href="https://www.facebook.com/?locale=pt_BR" target="_blank">Facebook</a></li>
+    </ul>
+
+    <p>Email: <a href="mailto:contato@fitlife.com">contato@fitlife.com</a></p>
+</footer>
+
+</body>
+</html>
